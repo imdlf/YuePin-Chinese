@@ -1,0 +1,49 @@
+.container {
+  background-color: rgb(1, 185, 235);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+}
+
+.text-background {
+  width: 160px;
+  height: 80px;
+  background-color: #fff;
+  border-radius: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 10px auto;
+  position: absolute;
+  top: 1%;
+}
+
+.center-text {
+  font-size: 28px;
+}
+
+.video-player {
+  width: 80%;
+  height: 30%;
+  position: absolute;
+  top: 16%;
+  left: 10%;
+  margin-bottom: 20px;
+}
+.buttons {
+  display: flex;
+  justify-content: space-between; /* Use space-between to create the gap */
+  position: absolute;
+  top: 50%;
+}
+
+.btn {
+  width: 90px; /* Set the width of each image button */
+  height: 90px; /* Set the height of each image button */
+  background-color: transparent; /* Make the image buttons have a transparent background */
+  border: none; /* Remove the border */
+  margin: 0 15px; /* Add a 30px gap between the image buttons */
+}
+

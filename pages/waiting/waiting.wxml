@@ -1,0 +1,4 @@
+<!--pages/waiting/waiting.wxml-->
+<view class="container">
+  敬请期待
+</view>

@@ -1,0 +1,55 @@
+{
+  "pages":[
+    "pages/index/index",
+    "pages/intro/intro",
+    "pages/game/game",
+    "pages/list/list",
+    "pages/logs/logs",
+    "pages/user/user",
+    "pages/maze/maze",
+    "pages/shengyun/shengyun",
+    "pages/shengmu/shengmu",
+    "pages/yunmu/yunmu",
+    "pages/waiting/waiting",
+    "pages/videostudy/videostudy"
+    
+  ],
+  "window":{
+    "backgroundTextStyle":"light",
+    "navigationBarBackgroundColor": "#fff",
+    "navigationBarTitleText": "Yue拼汉语",
+    "navigationBarTextStyle":"black"
+  },
+  "tabBar": {
+    "selectedColor":"#33a3dc", 
+    "list": [
+      {
+        "pagePath": "pages/index/index",
+        "text": "首页",
+        "iconPath": "pages/images/tabBar/首页.png",
+        "selectedIconPath": "pages/images/tabBar/首页_选中.png"
+      },
+      {
+        "pagePath": "pages/list/list",
+        "text": "答题",
+        "iconPath": "pages/images/tabBar/答题.png",
+        "selectedIconPath": "pages/images/tabBar/答题_选中.png"
+      },
+      {
+        "pagePath": "pages/maze/maze",
+        "text": "迷宫",
+        "iconPath": "pages/images/tabBar/迷宫.png",
+        "selectedIconPath": "pages/images/tabBar/迷宫_选中.png"
+      },
+      {
+        "pagePath": "pages/user/user",
+        "text": "我的",
+        "iconPath": "pages/images/tabBar/用户.png",
+        "selectedIconPath": "pages/images/tabBar/用户_选中.png"
+      }
+      
+    ]
+  },
+  "style": "v2",
+  "sitemapLocation": "sitemap.json"
+}

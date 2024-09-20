@@ -1,0 +1,22 @@
+<!--pages/list/list.wxml-->
+<view class="bg">
+  <image class="bgimg" src="cloud://yuepinhanyu-8gtjtlw230fadf9d.7975-yuepinhanyu-8gtjtlw230fadf9d-1319777079/images/人物.jpg"></image>
+</view>
+
+<view class="title">
+  <image 
+  class="titleimg"
+  src="cloud://yuepinhanyu-8gtjtlw230fadf9d.7975-yuepinhanyu-8gtjtlw230fadf9d-1319777079/images/title_decorated.png"
+  mode="widthFix"
+  >
+  </image>
+</view>
+
+
+<view style="text-align:center">
+  <button bindtap="startgame"
+  class="begin" >
+    <text class="show">开始游戏</text> 
+  </button>
+</view>
+

@@ -1,0 +1,135 @@
+/* pages/game/game.wxss */
+.bgimg{
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  display: block;
+  width: 100%;
+  height: 100%;
+  z-index: -10;
+}
+
+.cntnum{
+  display: flex; 
+  align-items: center;
+}
+
+.clock{
+  display: flex;
+  flex-direction: column;
+  margin-top: 20rpx;
+  margin-left: 20rpx;
+}
+
+.score{
+  height: 100rpx;
+  margin-left: 80rpx;
+  background-color:lightskyblue;
+  border-radius: 5%;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.timecnt{
+  z-index: -9;
+}
+
+.cnt-time{
+  font-size: 25px;
+  color:pink;
+  text-align: center;
+  justify-content: center;
+}
+
+.cnt-score{
+  margin: 20rpx;
+  color: hotpink;
+  font-size: 20px;
+}
+
+.buttons {
+  /* background-color: green; */
+  display: flex;
+  flex-direction: column;
+}
+
+.left-button{
+  margin-left: 20rpx;
+  margin-top: 10rpx;
+  width: 100rpx;
+}
+
+.img-button[plain]{
+  padding: 0;
+  border:none;
+}
+
+.ask{
+  width: 400rpx;
+  height: 200rpx;
+  position: absolute;
+  left: 175rpx;
+  top: 200rpx;
+  background-color: lightyellow;
+  border-radius: 5%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding-bottom: 80rpx;
+  z-index: -9;
+}
+
+.question{
+  font-size:80px;
+  color:lightsalmon;
+  text-align: center;
+  /* background-color: green; */
+}
+
+.chioce{
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  text-align: center;
+  margin-top: 80rpx;
+}
+
+.A{
+  position: relative;
+  /* background-color: white; */
+}
+
+.B{
+  position: relative;
+  /* background-color: blue; */
+}
+
+.cho1{
+  /* background-color: green; */
+  color: red;
+  font-size: 70rpx;
+  position: absolute;
+  left:50%;
+  top: 50%;
+  transform: translate(-50%,-50%);
+}
+
+.cho2{
+  /* background-color: yellow; */
+  color: red;
+  font-size: 70rpx;
+  position: absolute;
+  left:50%;
+  top: 50%;
+  transform: translate(-50%,-50%);
+}
+
+
+.lion{
+  z-index: -3;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}

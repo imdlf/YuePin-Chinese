@@ -1,0 +1,12 @@
+
+<view class="container">
+  <view class="text-background">
+    <text class="center-text">{{currentVideoname}}</text>
+  </view>
+  <video  class="video-player" src="{{currentVideo}}" id="myVideo" controls='{{false}}'  ></video>
+  <view class="buttons">
+    <image class="btn" src="cloud://yuepinhanyu-8gtjtlw230fadf9d.7975-yuepinhanyu-8gtjtlw230fadf9d-1319777079/images/videoicon/1.png" bindtap="prevVideo"></image>
+    <image class="btn" src="cloud://yuepinhanyu-8gtjtlw230fadf9d.7975-yuepinhanyu-8gtjtlw230fadf9d-1319777079/images/videoicon/2.png" bindtap="togglePlay"></image>
+    <image class="btn" src="cloud://yuepinhanyu-8gtjtlw230fadf9d.7975-yuepinhanyu-8gtjtlw230fadf9d-1319777079/images/videoicon/3.png" bindtap="nextVideo"></image>
+  </view>
+</view>

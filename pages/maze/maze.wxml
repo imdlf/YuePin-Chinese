@@ -1,0 +1,17 @@
+<!--pages/maze/maze.wxml-->
+
+<view class="bg">
+  <image class="bgimg" src="cloud://yuepinhanyu-8gtjtlw230fadf9d.7975-yuepinhanyu-8gtjtlw230fadf9d-1319777079/images/迷宫封面.jpg"></image>
+</view>
+
+
+
+<view style="text-align:center">
+  <button bindtap="startgame"
+  class="begin" >
+    <text class="show">开始游戏</text> 
+  </button>
+</view>
+
+
+

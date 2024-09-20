@@ -1,0 +1,79 @@
+<!--index.wxml-->
+
+
+
+
+<view class="container">
+  <view class="user" > 
+  <view wx:if="{{notLogin}}" class="userinfo">
+    <button 
+    type="primary"
+      plain="true"
+      style="height: 100rpx;"
+      open-type="chooseAvatar" 
+      bind:chooseavatar="onChooseAvatar">choose avatar</button> 
+    
+    <!-- model:value="{{userName}}"是简易双向绑定 -->
+    <input 
+      style="height: 150rpx;"
+      type="nickname" 
+      placeholder="please provide a username" 
+      model:value="{{userName}}"/>
+    <button 
+    plain="true"
+      type="primary"
+      style="height: 100rpx;" 
+      bindtap="Login">Login</button>
+  </view>
+    <view class="userinfo">
+      <block>
+        <view class="info-item">
+          <view class="left-text">
+            <text >头像： </text>
+          </view>
+          <image class="avatar" src="{{photoUrl}}"></image>
+        </view>
+
+        <view class="info-item">
+          <view class="left-text">
+            <text >昵称： </text>
+          </view>
+          <view class="right-text">
+            {{userName}}
+          </view>
+        </view>
+
+        <view class="info-item">
+          <view class="left-text">
+            <text >用户类型：</text>
+          </view>
+          <picker
+           mode="selector" range="{{pickType}}" value="{{index}}" bindchange="pickerChange">  <view class="right-text">
+              {{pickType[index]}}
+            </view> 
+          </picker>
+        </view>
+        
+      </block>
+
+
+    </view>
+    <view class="userinfo">
+      <view style="font-size: 50rpx;margin: 10rpx;">
+        <text>历史最高分</text>
+      </view>
+      <view class="hightest-score">
+        <text>ans questions</text>
+        <view class="score">
+          <text>999</text>
+        </view>
+      </view>
+      <view class="hightest-score">
+        <text>maze</text>
+        <view class="score">
+          <text>999</text>
+        </view>
+      </view>
+    </view>
+  </view>
+</view>

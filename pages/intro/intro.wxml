@@ -1,0 +1,12 @@
+<view>
+  <image class="bgimg" src="cloud://yuepinhanyu-8gtjtlw230fadf9d.7975-yuepinhanyu-8gtjtlw230fadf9d-1319777079/images/游戏背景.jpg"></image>
+    <image class="bgimg" src="cloud://yuepinhanyu-8gtjtlw230fadf9d.7975-yuepinhanyu-8gtjtlw230fadf9d-1319777079/images/book.png"></image>
+    <text style="z-index: 1;" class="intro">
+    游戏帮助:本游戏不考虑拼音的
+    省写规则,
+    例如：月(yuè)在游戏中将显示为:
+    给定声母ü,
+    玩家选择e则为本题正确。
+  </text>
+    
+</view>

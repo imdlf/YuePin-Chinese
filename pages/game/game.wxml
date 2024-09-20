@@ -1,0 +1,82 @@
+<!--pages/game/game.wxml-->
+<view>
+  <image class="bgimg" src="cloud://yuepinhanyu-8gtjtlw230fadf9d.7975-yuepinhanyu-8gtjtlw230fadf9d-1319777079/images/游戏背景.jpg"></image>
+  <view class="cntnum">
+    <!-- 时钟 -->
+    <view class="clock">
+      <image 
+      style="width: 100rpx;height: 80rpx;"
+      class="timecnt" 
+      src="cloud://yuepinhanyu-8gtjtlw230fadf9d.7975-yuepinhanyu-8gtjtlw230fadf9d-1319777079/images/clock.png" ></image>
+      <text class="cnt-time">{{gametime}}s</text>
+    </view> 
+    <!-- 得分 -->
+    <view class="score">
+      <text class="cnt-score">得分：{{gameScore}}</text>
+    </view>
+  </view>
+
+  <!-- 游戏说明、介绍、退出 -->
+  <view class="buttons">
+    <view class="left-button"><!-- 游戏说明 -->
+      <button bindtap="showHelp"
+        class="img-button" plain 
+        style="width: 100rpx;height: 100rpx; z-index: 1;">
+        <image src="cloud://yuepinhanyu-8gtjtlw230fadf9d.7975-yuepinhanyu-8gtjtlw230fadf9d-1319777079/images/help.png" 
+        style="height: 100rpx;width: 100rpx;"></image>
+      </button>
+    </view>
+    <view class="left-button"><!-- 游戏介绍 -->
+      <button bindtap="showintro"
+        class="img-button" plain 
+        style="width: 100rpx;height: 100rpx; z-index: 1;">
+        <image src="cloud://yuepinhanyu-8gtjtlw230fadf9d.7975-yuepinhanyu-8gtjtlw230fadf9d-1319777079/images/intro.png" 
+        style="height: 100rpx;width: 100rpx;"></image>
+      </button>
+    </view>
+    <view  class="left-button"><!-- 游戏退出 -->
+      <button bindtap="escapeit"
+        class="img-button" plain 
+        style="width: 100rpx;height: 100rpx; z-index: 1;">
+        <image 
+        src="cloud://yuepinhanyu-8gtjtlw230fadf9d.7975-yuepinhanyu-8gtjtlw230fadf9d-1319777079/images/exit.png" 
+        style="height: 100rpx;width: 100rpx;"
+        ></image>
+      </button>
+      
+    </view>
+  </view>
+
+  <!-- 题目（声母） -->
+  <view class="ask">
+  <view>
+    <text class="question" >{{list.question[askNow]}}</text>
+  </view>
+  </view>
+
+  <!-- 选项 -->
+  <view class="chioce">
+    <view 
+      bindtap="select" 
+      class="A"
+      data-item="A">
+      <image src="cloud://yuepinhanyu-8gtjtlw230fadf9d.7975-yuepinhanyu-8gtjtlw230fadf9d-1319777079/images/pot.png" style=" width: 180rpx;height:180rpx;" mode="widthFix">
+      </image>
+      <view class="cho1" >{{list.optionA[askNow]}}</view>
+    </view>
+    <view 
+      bindtap="select" 
+      class="B"
+      data-item="B">
+      <image src="cloud://yuepinhanyu-8gtjtlw230fadf9d.7975-yuepinhanyu-8gtjtlw230fadf9d-1319777079/images/pot.png" style=" width: 180rpx;height:180rpx;" mode="widthFix">
+      </image>
+      <text class="cho2" >{{list.optionB[askNow]}}</text>
+    </view>
+  </view>
+
+  <!-- 小花狮 -->
+  <view class="lion">
+    <image src="cloud://yuepinhanyu-8gtjtlw230fadf9d.7975-yuepinhanyu-8gtjtlw230fadf9d-1319777079/images/character.png"
+    style="width: 200px;width: 200px;" ></image>
+  </view>
+</view>

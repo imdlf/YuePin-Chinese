@@ -1,0 +1,52 @@
+<!--pages/mainpage/mainpage.wxml-->
+<view>
+  <image class="bgimg" src="cloud://yuepinhanyu-8gtjtlw230fadf9d.7975-yuepinhanyu-8gtjtlw230fadf9d-1319777079/images/首页背景.jpg"></image>
+</view>
+
+<!-- 声母学习 -->
+<view >
+  <button bindtap="study_shengmu"
+      class="img-shengmu" plain 
+      style="width: 260px;height: 70px;">
+    <image 
+    style="width: 260px;height: 70px;"
+    src="cloud://yuepinhanyu-8gtjtlw230fadf9d.7975-yuepinhanyu-8gtjtlw230fadf9d-1319777079/images/声母学习.png" ></image>
+  </button>
+</view> 
+
+<!-- 韵母学习 -->
+<view >
+  <button bindtap="study_yunmu"
+      class="img-yunmu" plain 
+      style="width: 260px;height: 70px;">
+    <image 
+    style="width: 260px;height: 70px;"
+    src="cloud://yuepinhanyu-8gtjtlw230fadf9d.7975-yuepinhanyu-8gtjtlw230fadf9d-1319777079/images/韵母学习.png" ></image>
+  </button>
+</view> 
+
+<!-- 声韵配合 -->
+
+<view >
+  <button bindtap="study_shengyunpeihe"
+      class="img-shengyunpeihe" plain 
+      style="width: 260px;height: 70px;">
+      
+      <image 
+      src="cloud://yuepinhanyu-8gtjtlw230fadf9d.7975-yuepinhanyu-8gtjtlw230fadf9d-1319777079/images/声韵配合.png" 
+      style="width: 260px;height: 70px;"
+      ></image>
+  </button>
+
+</view> 
+
+<!-- 视频学习 -->
+<view >
+  <button bindtap="study_shipin"
+      class="img-shipin" plain 
+      style="width: 260px;height: 70px;">
+    <image 
+    style="width: 260px;height: 70px;"
+    src="cloud://yuepinhanyu-8gtjtlw230fadf9d.7975-yuepinhanyu-8gtjtlw230fadf9d-1319777079/images/视频学习.png" ></image>
+  </button>
+</view> 

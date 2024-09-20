@@ -1,0 +1,2 @@
+<web-view src="{{'https://mp.weixin.qq.com/s?__biz=Mzg4Mzg5ODY2NQ==&mid=2247484442&idx=1&sn=5ccd8fb5d26da54ef78d25eb39c1c739&chksm=cf41245cf836ad4ac57d1f4bbe8db337ce06fd61da5fc803f787406578e6fb8306cc0a4a2dc0&token=56832005&lang=zh_CN#rd'}}" bindmessage="handleWebViewMessage"></web-view>
+
